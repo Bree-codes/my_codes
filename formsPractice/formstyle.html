@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Employee</title>
+
+     <style>
+      /* Style the legend elements to minimize lines */
+     fieldset legend {
+          margin: 0;
+          padding: 1px;
+          border-width: 10;
+         
+         /* background-color: #333; */
+      }
+      fieldset{
+        width: 50%;
+      }
+
+      /*.center-form{
+        text-align: center;
+        margin: auto;
+        width: 50%;
+      } */
+
+  </style> 
+
+</head>
+
+<body>
+  
+    <h1>Register Employee Here</h1>
+
+    <div class="form-container">
+      
+        <form id="personal-details-form">
+          <fieldset>
+            <legend>Employee Personal Details</legend>
+
+            <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" class="form-input"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="phoneNumber" class="form-label">Phone Number:</label>
+                <input type="tel" id="phone_number" class="form-input"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="idNumber" class="form-label">Id Number:</label>
+                <input type="text" id="id_number" class="form-input"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="kraPin" class="form-label">KRA PIN:</label>
+                <input type="text" id="kra_pin" class="form-input"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-input"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="gender" class="form-label">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </div>
+
+            <div class="form-group">
+                <label for="department" class="form-label">Department:</label>
+                <select id="department" name="department">
+                    <option value="COMP SCIENCE">CS</option>
+                    <option value="info tech">IT</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            </fieldset>
+        </form>
+    
+
+      
+        <form id="other-details-form">
+          <fieldset>
+            <legend>Employee Renumeration Package</legend>
+
+            <div class="form-group">
+                <label for="basic_salary" class="form-label">Basic Salary:</label>
+                <input type="text" id="basic_salary" class="form-input"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="house_allowance" class="form-label">House Allowance:</label>
+                <input type="text" id="house_allowance" class="form-input"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="commuter_allowance" class="form-label">Commuter Allowance:</label>
+                <input type="text" id="commuter_allowance" class="form-input"><br>
+            </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <button type="submit">Register Employee</button>
+    
+</body>
+</html>

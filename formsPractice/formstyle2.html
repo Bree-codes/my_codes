@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .form-container {
+      width: 500px;
+      margin: 0 auto;
+      border: 2px solid #333;
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-label {
+      display: inline-block;
+      font-weight: bold;
+      width: 30%;
+      vertical-align: top;
+    }
+    .form-input {
+      display: inline-block;
+      width: 70%;
+      padding: 5px;
+      vertical-align: top;
+    }
+    .form-header {
+      border-bottom: 2px solid #333;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+    }
+    .form-section {
+      margin-bottom: 20px;
+    }
+  </style>
+  <title>Register Employee</title>
+</head>
+<body>
+  <center>
+    <h1>Register Employee Here</h1>
+  </center>
+
+  <div class="form-container">
+    <div class="form-header">
+      <h2>Employee Registration Form</h2>
+    </div>
+
+    <form id="personal-details-form" class="form-section">
+      <h4>Employee Personal Details</h4>
+
+      <div class="form-group">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" id="name" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="phoneNumber" class="form-label">Phone Number:</label>
+        <input type="tel" id="phoneNumber" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="idNumber" class="form-label">Id Number:</label>
+        <input type="text" id="idNumber" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="kraPin" class="form-label">KRA PIN:</label>
+        <input type="text" id="kraPin" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" id="email" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="gender" class="form-label">Gender:</label>
+        <label for="male">Male</label>
+        <input type="checkbox" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="checkbox" id="female" name="gender" value="female">
+      </div>
+    </form>
+
+    <form id="other-details-form" class="form-section">
+      <h4>Employee Remuneration Package</h4>
+
+      <div class="form-group">
+        <label for="basicSalary" class="form-label">Basic Salary:</label>
+        <input type="text" id="basicSalary" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="houseAllowance" class="form-label">House Allowance:</label>
+        <input type="text" id="houseAllowance" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="commuterAllowance" class="form-label">Commuter Allowance:</label>
+        <input type="text" id="commuterAllowance" class="form-input">
+      </div>
+    </form>
+  </div>
+
+  <center>
+    <button type="submit">Register Employee</button>
+  </center>
+</body>
+</html>

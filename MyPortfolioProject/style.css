@@ -106,6 +106,20 @@ nav ul li a:hover:after{
 }
  
 body{
-    background-color:aqua; 
+    background-color:bisque; 
 
 }
+
+#custom-icon {
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        font-size: 24px;
+        margin: 0 10px;
+    }
+ 
